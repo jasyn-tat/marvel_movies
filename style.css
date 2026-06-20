@@ -73,3 +73,34 @@ input[type="checkbox"] {
     height: 18px;
     cursor: pointer;
 }
+
+/* 5. Cinematic Footer Styles */
+footer {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.85rem;
+    color: #646a78; /* Muted slate gray */
+    margin: 6px 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: color 0.2s ease;
+}
+
+/* Subtle highlights when your users interact with the page */
+footer p:hover {
+    color: #a0a5b5; /* Lightens up slightly on hover */
+}
+
+/* Bold your name to give yourself credit */
+footer p:first-child {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
